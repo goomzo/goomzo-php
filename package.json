@@ -1,0 +1,11 @@
+{
+  "name": "@goomzo/sdk-php",
+  "version": "0.1.0",
+  "private": true,
+  "description": "The goomzo/goomzo-php Composer package, run by turbo through Composer.",
+  "scripts": {
+    "lint": "composer install --quiet --no-interaction && composer lint",
+    "check-types": "composer install --quiet --no-interaction && composer check-types",
+    "test": "composer install --quiet --no-interaction && composer test"
+  }
+}

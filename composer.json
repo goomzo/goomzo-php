@@ -1,0 +1,41 @@
+{
+    "name": "goomzo/goomzo-php",
+    "description": "The Goomzo API for PHP: messages, templates, customers and webhooks.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["goomzo", "sms", "whatsapp", "customers", "tanzania", "api"],
+    "homepage": "https://docs.goomzo.africa/docs/developers/php-sdk",
+    "support": {
+        "email": "hello@goomzo.africa",
+        "docs": "https://docs.goomzo.africa/docs/developers/php-sdk"
+    },
+    "require": {
+        "php": ">=8.1",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.64",
+        "phpstan/phpstan": "^2.0",
+        "phpunit/phpunit": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Goomzo\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Goomzo\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "lint": "php-cs-fixer check --diff",
+        "format": "php-cs-fixer fix",
+        "check-types": "phpstan analyse",
+        "test": "phpunit"
+    }
+}
