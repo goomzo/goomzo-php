@@ -1,9 +1,27 @@
 {
   "$schema": "https://turborepo.com/schema.json",
-  "extends": ["//"],
+  "extends": [
+    "//"
+  ],
   "tasks": {
+    "lint": {
+      "dependsOn": [
+        "deps"
+      ]
+    },
+    "check-types": {
+      "dependsOn": [
+        "deps"
+      ]
+    },
     "test": {
-      "inputs": ["$TURBO_DEFAULT$", "$TURBO_ROOT$/_services/api/openapi/public.yaml"]
+      "dependsOn": [
+        "deps"
+      ],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "$TURBO_ROOT$/_services/api/openapi/public.yaml"
+      ]
     }
   }
 }

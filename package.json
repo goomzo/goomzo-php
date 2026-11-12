@@ -4,8 +4,9 @@
   "private": true,
   "description": "The goomzo/goomzo-php Composer package, run by turbo through Composer.",
   "scripts": {
-    "lint": "composer install --quiet --no-interaction && composer lint",
-    "check-types": "composer install --quiet --no-interaction && composer check-types",
-    "test": "composer install --quiet --no-interaction && composer test"
+    "deps": "composer install --quiet --no-interaction",
+    "lint": "composer lint",
+    "check-types": "composer check-types",
+    "test": "composer test"
   }
 }
