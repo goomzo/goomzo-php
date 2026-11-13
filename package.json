@@ -1,6 +1,6 @@
 {
   "name": "@goomzo/sdk-php",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "The goomzo/goomzo-php Composer package, run by turbo through Composer.",
   "scripts": {
