@@ -9,7 +9,7 @@ use Goomzo\Page;
 use Goomzo\Transport;
 
 /**
- * Messages, each to one person, by SMS or WhatsApp.
+ * Messages, each to one person, by SMS, WhatsApp or email.
  *
  * @see https://docs.goomzo.africa/docs/developers/php-sdk/messages
  */

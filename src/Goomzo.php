@@ -33,7 +33,7 @@ final class Goomzo
     /** The API version this release is written for. Every request is sent with it, as `Goomzo-Version`. */
     public const API_VERSION = '2026-11-08';
 
-    /** Send SMS and WhatsApp messages, each to one person. */
+    /** Send SMS, WhatsApp and email messages, each to one person. */
     public readonly Messages $messages;
 
     /** Send one message to many people. */

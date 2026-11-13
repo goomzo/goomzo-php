@@ -1,6 +1,6 @@
 # goomzo-php
 
-The [Goomzo API](https://docs.goomzo.africa/docs/developers/php-sdk) for PHP: send SMS and WhatsApp messages, send
+The [Goomzo API](https://docs.goomzo.africa/docs/developers/php-sdk) for PHP: send SMS, WhatsApp and email messages, send
 saved templates, keep customers in step, and check webhooks. PHP 8.1 or later.
 
 ```bash

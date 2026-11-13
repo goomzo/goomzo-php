@@ -7,7 +7,7 @@ namespace Goomzo\Resources;
 use Goomzo\Transport;
 
 /**
- * Saved templates, for SMS and WhatsApp. Send one by name with
+ * Saved templates, for SMS, WhatsApp and email. Send one by name with
  * `$goomzo->messages->sendOne(['to' => …, 'template' => 'auth_1', 'variables' => […]])`.
  *
  * @see https://docs.goomzo.africa/docs/developers/php-sdk/templates
